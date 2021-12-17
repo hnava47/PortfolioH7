@@ -11,3 +11,17 @@ footer {
     background-color: #FFFFFF;
     color: #67696D;
 }
+
+.carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
+.carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
