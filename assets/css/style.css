@@ -36,6 +36,11 @@ h1 {
     top: 50%;
 }
 
+#social button:hover{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
 #facebook {
     background: #1877F2;
 }
