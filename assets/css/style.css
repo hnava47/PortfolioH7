@@ -35,7 +35,7 @@ h1 {
     min-height: 320px;
 }
 
-@keyframes ckw {
+@keyframes clockWise {
     0% {
         transform: rotate(0deg);
     }
@@ -44,7 +44,7 @@ h1 {
     }
 }
 
-@keyframes cckw {
+@keyframes counterClockWise {
     0% {
         transform: rotate(360deg);
     }
@@ -73,7 +73,7 @@ h1 {
     top: 45px;
     width: 85px;
 
-    animation-name: ckw;
+    animation-name: clockWise;
     animation-duration: 10s;
 }
 
@@ -84,7 +84,7 @@ h1 {
     top: 10px;
     width: 125px;
 
-    animation-name: cckw;
+    animation-name: counterClockWise;
     animation-duration: 16.84s;
 }
 
@@ -95,7 +95,7 @@ h1 {
     top: 118px;
     width: 103px;
 
-    animation-name: ckw;
+    animation-name: clockWise;
     animation-duration: 13.5s;
 }
 
@@ -106,7 +106,7 @@ h1 {
     top: 173px;
     width: 144px;
 
-    animation-name: cckw;
+    animation-name: counterClockWise;
     animation-duration: 20.2s;
 }
 
@@ -117,7 +117,7 @@ h1 {
     top: 292px;
     width: 85px;
 
-    animation-name: ckw;
+    animation-name: clockWise;
     animation-duration: 10s;
 }
 
@@ -128,7 +128,7 @@ h1 {
     top: 283px;
     width: 125px;
 
-    animation-name: cckw;
+    animation-name: counterClockWise;
     animation-duration: 16.84s;
 }
 
@@ -139,7 +139,7 @@ h1 {
     top: 217px;
     width: 103px;
 
-    animation-name: ckw;
+    animation-name: clockWise;
     animation-duration: 13.5s;
 }
 
