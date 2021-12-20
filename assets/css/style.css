@@ -9,15 +9,24 @@ body {
 
 h1 {
     color: #1877F2;
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 @keyframes fade-in {
-    from { opacity: 0;}
+    from {opacity: 0;}
     to {opacity: 1;}
 }
 
 .fade-in-element {
     animation: fade-in 1.4s;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 #profile-pic {
@@ -42,6 +51,41 @@ h1 {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #1877F2;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
 }
 
 @keyframes counterClockWise {
