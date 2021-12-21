@@ -43,7 +43,7 @@
                     <h3>Hello! My name is Hector Nava and I'm a full stack developer.</h3>
                 </div>
                 <div id="profile-pic" class="col">
-                    <img src="./assets/img/headshot-removebg.png" class="rounded mx-auto d-block shawdow" alt="Headshot picture" />
+                    <img src="./assets/img/headshot-removebg.png" class="img-fluid rounded mx-auto d-block shawdow" alt="Headshot picture" />
                 </div>
             </div>
             <div id="tech-skill" class="py-5">
@@ -137,11 +137,11 @@
             </div>
             <div class="mt-5 py-5 hidden">
                 <h1 class="mb-3">Development Projects:</h1>
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active bg-dark"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1" class="bg-dark"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2" class="bg-dark"></li>
+                        <li data-target="#carousel" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carousel" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carousel" data-slide-to="2" class="bg-dark"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -160,11 +160,11 @@
                             </a>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                         <i class="fas fa-chevron-left"></i>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
                         <i class="fas fa-chevron-right"></i>
                         <span class="sr-only">Next</span>
                     </a>
@@ -178,8 +178,8 @@
                 </svg>
             </div>
             <div class="mt-5 py-5 hidden">
-                <h1 class="mb-3">Contacts:</h1>
-                <form>
+                <h1 class="mb-3">Contact:</h1>
+                <form class="p-3 rounded shadow">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -212,6 +212,7 @@
             </div>
         </main>
         <div id="social" class="btn-group-vertical" role="group" aria-label="Basic example">
+            <h8 class="font-weight-bold">Follow me!</h8>
             <button id="linkedin" type="button" class="btn">
                 <a target="_blank" href="https://www.linkedin.com/in/hector-nava-mba" title="Connect on LinkedIn">
                     <i style="font-size: 2em; color: #FFFFFF;" class="fab fa-linkedin-in"></i>
@@ -223,10 +224,9 @@
                 </a>
             </button>
         </div>
-        <footer class="footer text-center mt-auto py-3">
+        <footer class="footer text-center mt-auto py-5">
             <div class="container">
               <span class="text-muted">Place sticky footer content here.</span>
-              <span>test</span>
             </div>
         </footer>
 
